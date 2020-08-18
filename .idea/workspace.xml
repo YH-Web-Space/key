@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0ccf06d-d771-483c-b44b-bbd5f7da950b" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fjI5gwskYtgXPyrmyGuq9jB6Jf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/yung_and_hungry/app/js/main.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0ccf06d-d771-483c-b44b-bbd5f7da950b" name="Default" comment="" />
+      <created>1595848834910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595848834910</updated>
+      <workItem from="1595848838920" duration="21817000" />
+      <workItem from="1595921219056" duration="13536000" />
+      <workItem from="1596009733577" duration="28659000" />
+      <workItem from="1596091815365" duration="17433000" />
+      <workItem from="1596121448297" duration="11267000" />
+      <workItem from="1596274635767" duration="37000" />
+      <workItem from="1596379028620" duration="9695000" />
+      <workItem from="1596439786520" duration="1497000" />
+      <workItem from="1596485020167" duration="713000" />
+      <workItem from="1596569966306" duration="57000" />
+      <workItem from="1596615107450" duration="17041000" />
+      <workItem from="1596639986641" duration="4489000" />
+      <workItem from="1596724896090" duration="4936000" />
+      <workItem from="1596784002252" duration="26128000" />
+      <workItem from="1597043415011" duration="28478000" />
+      <workItem from="1597130840330" duration="1441000" />
+      <workItem from="1597133750373" duration="13888000" />
+      <workItem from="1597649019170" duration="27033000" />
+      <workItem from="1597734949594" duration="27532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597753185296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597753185296" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1596728345333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596728345333" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1597668848221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597668848221" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597750002964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597750002964" />
+  </component>
+</project>

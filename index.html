@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:og="http://ogp.me/ns#">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175165421-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175165421-1');
+    </script>
+    <meta charset="UTF-8">
+    <title>Chairman</title>
+    <!-- BOOTSTRAP-->
+    <!-- CSS style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/maskinput.js"></script>
+
+    <!--Open Graph-->
+    <link rel="shortcut icon" href="assets/img/Logo2.ico" type="image/x-icon">
+    <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+    <meta property="og:locale" content="ru_RU">
+    <!-- тип контента, по умолчанию используется article -->
+    <meta property="og:type" content="article">
+    <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+    <meta property="og:title" content="Chairman Перетяжка и ремонт">
+    <!-- описание страницы -->
+    <meta property="og:description" content="Перетяжка мягкой мебели г.Киев. Реставрация и ремонт. Работаем без
+    предоплаты. Бесплатная консультация">
+    <!-- ссылка на изображение, которое будет публиковаться в записи -->
+    <meta property="og:image" content="assets/img/og-logo.jpg">
+    <!-- ссылка на текущую страницу -->
+    <meta property="og:url" content="http://chairman.com.ua/">
+    <!-- название сайта -->
+    <meta property="og:site_name" content="Chairman">
+
+    <!-- Тип карты, по умолчанию используется summary -->
+    <meta name="twitter:card" content="summary">
+    <!-- Имя/логин автора -->
+    <meta name="twitter:site" content="Chairman">
+    <!-- Название страницы -->
+    <meta name="twitter:title" content="Chairman Перетяжка и ремонт">
+    <!-- Описание страницы -->
+    <meta name="twitter:description" content="Перетяжка мягкой мебели г.Киев. Реставрация и ремонт. Работаем без
+    предоплаты. Бесплатная консультация">
+    <!-- Cсылка на изображение -->
+    <meta name="twitter:image" content="assets/img/og-logo.jpg">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '330535698022356');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=330535698022356&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-top df">
+            <div class="logo">
+                <img src="assets/img/header/logo.png" alt="logo">
+            </div>
+            <div class="header-top__content">
+                <div class="header-top__menu df">
+                    <div class="header-top__lang">
+                        <p class="translate" id="ru">Ru</p><span class="translate_span">|</span>
+                        <p class="translate" id="ua">Ukr</p>
+                    </div>
+                    <ul class="anchor menu__block df">
+                        <li class="menu__list"><a href="#services" class="menu__link lang" key="services">Услуги</a></li>
+                        <li class="menu__list"><a href="#benefits" class="menu__link lang" key="benefits">Преимущества</a></li>
+                        <li class="menu__list"><a href="#about" class="menu__link lang" key="aboutUs">О нас</a></li>
+                        <li class="menu__list"><a href="#contacts" class="menu__link lang" key="contacts">Контакты</a></li>
+                    </ul>
+                    <div class="location-mobile df">
+                        <img class="header-info__img" src="assets/img/header/location.svg" alt="location">
+                        <p class="header-info__text lang" key="address">г. Киев, ул. Ярослава Ивашкевича, 4</p>
+                    </div>
+                    <div class="header-top__burger">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header-top__info">
+                    <ul class="header-info__block df">
+                        <li class="header-info__list location df">
+                            <img class="header-info__img" src="assets/img/header/location.svg" alt="location">
+                            <p class="header-info__text lang" key="address">г. Киев, ул. Ярослава Ивашкевича, 4</p>
+                        </li>
+                        <li class="header-info__list df">
+                            <img class="header-info__img" src="assets/img/header/schedule.svg" alt="schedule">
+                            <p class="header-info__text">Пн-пт: 09.00-18.00</p>
+                        </li>
+                        <li class="header-info__list df">
+                            <img class="header-info__img" src="assets/img/header/phone.svg" alt="phone">
+                            <p class="header-info__text info-phone header-info__text_orange">38(097)-706-59-60</p>
+                            <p class="header-info__text info-phone">38(050)-668-78-51</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <ul class="anchor mobile-menu__block df">
+                    <li class="mobile-menu__list"><a href="#services" class="mobile-menu__link lang" key="services">Услуги</a></li>
+                    <li class="mobile-menu__list"><a href="#benefits" class="mobile-menu__link lang" key="benefits">Преимущества</a></li>
+                    <li class="mobile-menu__list"><a href="#about" class="mobile-menu__link lang" key="aboutUs">О нас</a></li>
+                    <li class="mobile-menu__list"><a href="#contacts" class="mobile-menu__link lang" key="contacts">Контакты</a></li>
+                </ul>
+                <div class="mobile-menu__info">
+                    <ul class="mobile-menu__info-block df">
+                        <li class="mobile-info__list df">
+                            <img class="mobile-info__img" src="assets/img/header/location.svg" alt="location">
+                            <p class="mobile-info__text lang" key="address">г. Киев, ул. Ярослава Ивашкевича, 4</p>
+                        </li>
+                        <li class="mobile-info__list df">
+                            <img class="mobile-info__img" src="assets/img/header/schedule.svg" alt="schedule">
+                            <p class="mobile-info__text">Пн-пт: 09.00-18.00</p>
+                        </li>
+                        <li class="mobile-info__list df">
+                            <img class="mobile-info__img" src="assets/img/header/phone.svg" alt="phone">
+                            <p class="mobile-info__text info-phone header-info__text_orange">38(097)-706-59-60</p>
+                            <p class="mobile-info__text info-phone">38(050)-668-78-51</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-network mobile__social-network df">
+                    <a href="" class="social-network__item"><img src="assets/img/header/viber.svg" alt="viber"></a>
+                    <a href="" class="social-network__item"><img src="assets/img/header/telegram.svg"
+                                                                 alt="telegram"></a>
+                    <a href="" class="social-network__item"><img src="assets/img/header/whatsapp.svg"
+                                                                 alt="whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content df">
+            <div class="header-content__slogan">
+                <h1 class="slogan__title">Ваш ключ</h1>
+                <p class="slogan__text  lang" key="slogan-text">Мастерская ключей <br> на любой вкус и цвет</p>
+                <div class="btn" >
+                    <p class="btn__text lang">Заказать звонок</p>
+                </div>
+                <div class="social-network df">
+                    <a href="" class="social-network__item"><img src="assets/img/header/viber.svg" alt="viber"></a>
+                    <a href="" class="social-network__item"><img src="assets/img/header/telegram.svg"
+                                                                 alt="telegram"></a>
+                    <a href="" class="social-network__item"><img src="assets/img/header/whatsapp.svg"
+                                                                 alt="whatsapp"></a>
+                </div>
+            </div>
+            <div class="anchor header-content__center df">
+                <img class="header-content__img" src="assets/img/header/key.png" alt="key">
+                <a href="#services"><img class="header-content__arrow" src="assets/img/header/arrow.svg" alt="arrow"></a>
+            </div>
+            <div class="anchor header-content__services">
+                <div class="services__block">
+                    <div class="services__item">
+                        <a href="#services1">
+                            <p class="header-services__text lang" key="header-services1">
+                                Изготовление дубликата <br>
+                                квартирных ключей всех видов
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services2">
+                            <p class="header-services__text lang" key="header-services2">
+                                Изготовление дубликата <br>
+                                автомобильных ключей
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services3">
+                            <p class="header-services__text lang" key="header-services3">
+                                Замена корпусов (пульта) <br>
+                                автомобильных ключей
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services4">
+                            <p class="header-services__text lang" key="header-services4">
+                                Изготовление (программирование) <br>
+                                пультов
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services5">
+                            <p class="header-services__text lang" key="header-services5">
+                                Изготовление дубликата <br> ключа по замку
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services6">
+                            <p class="header-services__text lang" key="header-services6">
+                                Ремонт замков <br>
+                                (замена секретов на новые)
+                            </p>
+                        </a>
+                    </div>
+                    <div class="services__item">
+                        <a href="#services7">
+                            <p class="header-services__text lang" key="header-services7">
+                                Перекодировка <br>
+                                замка
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="title df">
+            <span class="title__text lang" key="titleServices">Услуги</span>
+        </div>
+        <div class="services-item df" id="services1">
+            <img class="services__img" src="assets/img/services/services1.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service1">Изготовление дубликата квартирных ключей всех видов</p>
+                <p class="services__text lang" key="text-service1">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления
+                    процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует
+                    анализа.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services2">
+            <img class="services__img" src="assets/img/services/services2.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service2">Изготовление дубликата автомобильных ключей</p>
+                <p class="services__text lang" key="text-service2">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует
+                    анализа благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные исключительно
+                    синтетически, объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services3">
+            <img class="services__img" src="assets/img/services/services3.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service3">Замена корпусов (пульта) автомобильных ключей</p>
+                <p class="services__text lang" key="text-service3">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует анализа
+                    благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные исключительно синтетически,
+                    объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services4">
+            <img class="services__img" src="assets/img/services/services4.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service4">Изготовление (программирование) пультов для ворот или шлагбаумов</p>
+                <p class="services__text lang" key="text-service4">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует анализа
+                    благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные исключительно синтетически,
+                    объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services5">
+            <img class="services__img" src="assets/img/services/services5.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service5">Изготовление дубликата ключа по замку (при потере или поломке ключа) <br>
+                </p>
+                <p class="services__text lang" key="text-service5">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует анализа
+                    благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные исключительно синтетически,
+                    объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services6">
+            <img class="services__img" src="assets/img/services/services6.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service6">Ремонт замков (замена секретов на новые)</p>
+                <p class="services__text lang" key="text-service6">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует
+                    анализа благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные исключительно
+                    синтетически, объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-item df" id="services7">
+            <img class="services__img" src="assets/img/services/services7.png" alt="">
+            <div class="services__info df">
+                <p class="services__title lang" key="title-service7">Перекодировка замка </p>
+                <p class="services__text lang" key="text-service7">Равным образом, выбранный нами инновационный путь, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.
+                    С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта требует
+                    анализа благоприятных перспектив. Лишь ключевые особенности структуры проекта, инициированные
+                    исключительно синтетически, объективно рассмотрены соответствующими инстанциями.
+                </p>
+                <div class="btn " href="#">
+                    <p class="btn__text services-btn">Заказать услугу</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="benefits" id="benefits">
+    <div class="container">
+        <div class="title df">
+            <span class="title__text benefits__title">Преимущества</span>
+        </div>
+        <div class="benefits-block df">
+            <div class="benefits-item df">
+                <img src="assets/img/benefits/time.svg" alt="">
+                <p class="benefits__text">22 года на рынке</p>
+            </div>
+            <div class="benefits-item df">
+                <img src="assets/img/benefits/check.svg" alt="">
+                <p class="benefits__text">Бесплатное изготовление на выезде</p>
+            </div>
+            <div class="benefits-item df">
+                <img src="assets/img/benefits/speed.svg" alt="">
+                <p class="benefits__text">Скорость выполнения</p>
+            </div>
+            <div class="benefits-item df">
+                <img src="assets/img/benefits/monetization.svg" alt="">
+                <p class="benefits__text">Цены ниже рыночных</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="title df">
+            <span class="title__text">О нас</span>
+        </div>
+        <div class="info-block df">
+            <div class="about-info">
+                <p class="info-text">
+                    Равным образом, выбранный нами инновационный путь, а также свежий взгляд на привычные вещи - безусловно
+                    открывает новые горизонты для инновационных методов управления процессами. С учётом сложившейся международной
+                    обстановки, высококачественный прототип будущего проекта требует анализа благоприятных перспектив.
+                    Лишь ключевые особенности структуры проекта, инициированные исключительно синтетически, объективно
+                    рассмотрены соответствующими инстанциями.
+                    <br> <br>
+                    Равным образом, выбранный нами инновационный путь, а также свежий взгляд на привычные вещи - безусловно
+                    открывает новые горизонты для инновационных методов управления процессами. С учётом сложившейся международной
+                    обстановки, высококачественный прототип будущего проекта требует анализа благоприятных перспектив. Лишь
+                    ключевые особенности структуры проекта, инициированные исключительно синтетически, объективно рассмотрены
+                    соответствующими инстанциями.
+                </p>
+            </div>
+            <div class="info-img df">
+                <img src="assets/img/about/about.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts" id="contacts">
+    <div class="container">
+        <div class="title df">
+            <span class="title__text">Контакты</span>
+        </div>
+        <div class="contacts-block df">
+            <div class="contacts__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2611.92303967065!2d30.45269366721214!3d50.50502207513042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd811b617b63%3A0xce9f15032b96c20c!2z0LLRg9C70LjRhtGPINCv0YDQvtGB0LvQsNCy0LAg0IbQstCw0YjQutC10LLQuNGH0LAsIDQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1597668098819!5m2!1suk!2sua"  height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="contacts__info">
+                <p class="contacts__title-info">Адрес:</p>
+                <p class="contacts__text-info">ул. Ярослава Ивашкевича, 4</p>
+
+                <p class="contacts__title-info">График работы:</p>
+                <p class="contacts__text-info">Пн-пт: 09.00-18.00</p>
+
+                <p class="contacts__title-info">Телефон:</p>
+                <p class="contacts__text-info"><a href="tel:38(097)-706-59-60">38(097)-706-59-60</a></p>
+                <p class="contacts__text-info"><a href="tel:38(050)-668-78-51">38(050)-668-78-51</a></p>
+
+                <p class="contacts__title-info">Email:</p>
+                <p class="contacts__text-info"><a href="mailto:makeyourkeykiev@gmail.com">makeyourkeykiev@gmail.com</a></p>
+
+                <div class="social-network social-network__info df">
+                    <a href="" class="social-network__item social-network__item-info"><img src="assets/img/header/viber.svg" alt="viber"></a>
+                    <a href="" class="social-network__item social-network__item-info"><img src="assets/img/header/telegram.svg"
+                                                                 alt="telegram"></a>
+                    <a href="" class="social-network__item social-network__item-info"><img src="assets/img/header/whatsapp.svg"
+                                                                 alt="whatsapp"></a>
+                </div>S
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer-logo">
+            <img src="assets/img/footer/logo.svg" alt="">
+        </div>
+        <div class="footer-menu">
+            <ul class="anchor footer-menu__block df">
+                <li class="footer-menu__list"><a href="#services" class="footer-menu__link lang" key="services">Услуги</a></li>
+                <li class="footer-menu__list"><a href="#benefits" class="footer-menu__link lang" key="benefits">Преимущества</a></li>
+                <li class="footer-menu__list"><a href="#about" class="footer-menu__link lang" key="aboutUs">О нас</a></li>
+                <li class="footer-menu__list"><a href="#contacts" class="footer-menu__link lang" key="contacts">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-services">
+            <ul class="footer-services__block df">
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Изготовление дубликата квартирных ключей всех видов</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Изготовление дубликата автомобильных ключей</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Замена корпусов (пульта) автомобильных ключей</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Изготовление (программирование) пультов для ворот или шлагбаумов</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Изготовление дубликата ключа по замку (при потере или поломке ключа)</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Ремонт замков (замена секретов на новые)</a>
+                </li>
+                <li class="footer-services__list">
+                    <a href="" class="footer-services__link lang" >Перекодировка замка</a>
+                </li>
+
+            </ul>
+        </div>
+        <p class="advisory">© Все права защищены</p>
+    </div>
+</footer>
+
+<div class="pop-up">
+    <div class="call-back">
+        <div class="call-back__container df">
+            <div class="logo-popUp">
+                <img src="assets/img/header/logo.png" alt="">
+            </div>
+            <p class="pop-up__text">Форма для обратной связи</p>
+            <form class="pop-up__form" action="">
+                <input class="pop-up__input" type="text" placeholder="Ваше имя">
+                <input id="form-phone" class="pop-up__input" type="text" placeholder="+38(___)-__-__-__">
+                <input class="pop-up__input" type="submit" value="Отправить данные">
+            </form>
+        </div>
+        <span class="close-popUp">&#215</span>
+    </div>
+</div>
+
+<div class="scroll-up">
+
+</div>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
